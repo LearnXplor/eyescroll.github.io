@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Movement Scrolling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .instructions {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eye Movement Scrolling</h1>
+    <p>Scroll the webpage using your eye movements. Ensure your webcam is enabled for this feature.</p>
+    <p>Instructions:</p>
+    <ul>
+        <li>Look up to scroll up.</li>
+        <li>Look down to scroll down.</li>
+    </ul>
+
+    <!-- Add filler content -->
+    <div style="height: 3000px; background: linear-gradient(to bottom, #e3ffe7, #d9e7ff);"></div>
+
+    <div class="instructions">Ensure your face is visible to the webcam for tracking!</div>
+
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
